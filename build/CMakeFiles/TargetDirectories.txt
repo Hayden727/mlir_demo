@@ -1,0 +1,11 @@
+/home/hayden/prj/mlir_demo/build/CMakeFiles/intrinsics_gen.dir
+/home/hayden/prj/mlir_demo/build/CMakeFiles/omp_gen.dir
+/home/hayden/prj/mlir_demo/build/CMakeFiles/acc_gen.dir
+/home/hayden/prj/mlir_demo/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/hayden/prj/mlir_demo/build/CMakeFiles/mlir-tablegen-targets.dir
+/home/hayden/prj/mlir_demo/build/CMakeFiles/mlir-headers.dir
+/home/hayden/prj/mlir_demo/build/CMakeFiles/mlir-generic-headers.dir
+/home/hayden/prj/mlir_demo/build/CMakeFiles/mlir-doc.dir
+/home/hayden/prj/mlir_demo/build/CMakeFiles/mlir_demo.dir
+/home/hayden/prj/mlir_demo/build/CMakeFiles/edit_cache.dir
+/home/hayden/prj/mlir_demo/build/CMakeFiles/rebuild_cache.dir

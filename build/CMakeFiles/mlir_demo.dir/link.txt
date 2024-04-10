@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc libmlir_demo.a CMakeFiles/mlir_demo.dir/lib/LasmC/LasmCDialect.cpp.o
+/usr/bin/ranlib -D libmlir_demo.a
