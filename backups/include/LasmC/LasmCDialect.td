@@ -7,7 +7,11 @@ include "mlir/IR/OpBase.td"
 
 // 定义 LasmC Dialect
 def LasmCDialect : Dialect {
+
   let name = "lasm_c";
+
+  let summary = "LasmC dialect";
+
   let cppNamespace = "LasmC";
   // 这里可以添加更多的dialect属性和设置
 }

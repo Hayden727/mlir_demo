@@ -40,11 +40,11 @@ set(LLVM_TARGET_DEFINITIONS ${CMAKE_SOURCE_DIR}/include/LasmC/LasmCDialect.td)
 
 # 使用mlir-tblgen命令生成代码
 add_custom_command(OUTPUT LasmCDialectOps.h.inc
-        COMMAND mlir-tblgen -I/usr/local/include/mlir -I/usr/local/include/mlir/IR -gen-op-decls -o ${CMAKE_CURRENT_BINARY_DIR}/LasmCDialectOps.h.inc ${LLVM_TARGET_DEFINITIONS}
+        COMMAND mlir-tblgen -I/usr/local/include/mlir -gen-op-decls -o ${CMAKE_CURRENT_BINARY_DIR}/LasmCDialectOps.h.inc ${LLVM_TARGET_DEFINITIONS}
         DEPENDS ${LLVM_TARGET_DEFINITIONS}
 )
 add_custom_command(OUTPUT LasmCDialectOps.cpp.inc
-        COMMAND mlir-tblgen -I/usr/local/include/mlir -I/usr/local/include/mlir/IR -gen-op-defs -o ${CMAKE_CURRENT_BINARY_DIR}/LasmCDialectOps.cpp.inc ${LLVM_TARGET_DEFINITIONS}
+        COMMAND mlir-tblgen -I/usr/local/include/mlir -gen-op-defs -o ${CMAKE_CURRENT_BINARY_DIR}/LasmCDialectOps.cpp.inc ${LLVM_TARGET_DEFINITIONS}
         DEPENDS ${LLVM_TARGET_DEFINITIONS}
 )
 
